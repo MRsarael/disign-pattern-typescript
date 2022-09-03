@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "CommonJS",
+        "lib": ["DOM", "ESNext"],
+        "outDir": "./dist", // Onde estarão os arquivos JS compilados
+        "rootDir": "./src", // Onde estarão os arquivos TS para compilar
+        "removeComments": true,
+        "noEmitOnError": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+    },
+    "include": ["./src"]
+}
